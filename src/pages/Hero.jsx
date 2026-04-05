@@ -15,9 +15,7 @@ function Hero() {
         <h3 className="text-2xl md:text-3xl font-semibold mb-6">
           Full-Stack Developer
         </h3>
-
-      
-         
+ 
 
          {/* Bottom CTA */}
         <div className="mt-14 text-center flex flex-wrap gap-4">
@@ -54,11 +52,9 @@ function Hero() {
         </div>
       </div>
 
-      <div className="relative flex justify-center items-center mt-10 lg:mt-0">
+      <div className="relative flex justify-center items-center mt-10 lg:mt-0 order-1 lg:order-2">
         {/* Glow background */}
         <div className="absolute w-[320px] h-[320px] md:w-[420px] md:h-[420px] rounded-full bg-orange-500/20 blur-3xl"></div>
-
-       
 
         {/* Dark inner circle */}
         <div className="absolute w-[220px] h-[220px] md:w-[300px] md:h-[300px] rounded-full bg-[#111827]"></div>
@@ -67,7 +63,7 @@ function Hero() {
         <img
           src={profile}
           alt="Delara profile"
-          className="relative z-10 w-[140px] md:w-[500px] object-cover rounded-full-"
+          className="relative z-10 w-[300px] md:w-[500px] object-cover rounded-full-"
         />
       </div>
     </section>
