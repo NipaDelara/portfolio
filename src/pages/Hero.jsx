@@ -58,8 +58,7 @@ function Hero() {
         {/* Glow background */}
         <div className="absolute w-[320px] h-[320px] md:w-[420px] md:h-[420px] rounded-full bg-orange-500/20 blur-3xl"></div>
 
-        {/* Orange ring */}
-        <div className="absolute w-[260px] h-[260px] md:w-[340px] md:h-[340px] rounded-full border-[18px] border-orange-500 shadow-[0_0_40px_rgba(249,115,22,0.45)]"></div>
+       
 
         {/* Dark inner circle */}
         <div className="absolute w-[220px] h-[220px] md:w-[300px] md:h-[300px] rounded-full bg-[#111827]"></div>
